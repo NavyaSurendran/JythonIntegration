@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/party"
+	xmlns:tns="http://www.example.org/party" elementFormDefault="qualified">
+	<complexType name="Party">
+
+              <sequence>
+
+                     <element name="ocvId" type="string" minOccurs="0"/>
+
+                     <element name="partyType" type="string" minOccurs="0"/>
+
+                     <element name="dateOfBirth" type="string" minOccurs="0"/>
+
+                     <element name="establishmentDate" type="string" minOccurs="0"/>
+
+                     <element name="organisationType" type="string" minOccurs="0"/>
+
+                     <element name="status" type="string" minOccurs="0"/>
+
+                     <element name="source" type="string"/>
+
+                   <!--   <element name="kycDetails" type="common:KYCDetails" minOccurs="0"/>
+
+                     <element name="anzsicDetails" type="common:CodeDescription" minOccurs="0"/>                    
+
+                     <element name="industry" type="common:CodeDescription" minOccurs="0"/> -->
+
+                     <element name="bankruptDate" type="string" minOccurs="0"/>
+
+                     <element name="gender" type="string" minOccurs="0"/>
+
+                     <element name="maritalStatus" type="string" minOccurs="0"/>
+
+                     <element name="deceasedDate" type="string" minOccurs="0"/>
+
+                     <element name="sourceEstablishedDate" type="string" minOccurs="0"/>
+
+                     <element name="sourceClosedDate" type="string" minOccurs="0"/>
+
+                     <element name="employeeIndicator" type="string" minOccurs="0"/>
+
+                     <element name="employerName" type="string" minOccurs="0"/>               
+
+                    <!--  <element name="occupation" type="common:CodeDescription" minOccurs="0"/> -->                    
+
+      
+
+              </sequence>
+
+       </complexType>
+</schema>
